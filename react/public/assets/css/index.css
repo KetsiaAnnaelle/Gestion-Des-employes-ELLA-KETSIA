@@ -1,0 +1,40 @@
+/* body{
+    background-color: #f6f6f6;
+} */
+
+.input:focus {
+    border: 3px solid #5b08a5 !important;;
+    box-shadow: none !important;
+
+}
+
+.input{
+    border: 1px solid blue !important;
+    transition: all 0.3s !important;
+    background-color: #ffffff !important;
+    box-sizing: border-box;
+     
+}
+
+.form{
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px rgb(99, 155, 240);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+
+}
+
+.animated{
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    /* background-color: #f6f6f6; */
+}
+
+ .fadeInDown{
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
